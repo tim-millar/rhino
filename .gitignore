@@ -7,3 +7,9 @@
 /pkg/
 /spec/reports/
 /tmp/
+/vendor/bundle/
+
+# ignore tags
+GTAGS
+GRTAGS
+GPATH
