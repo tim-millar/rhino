@@ -34,7 +34,7 @@ module Rhino
 
       %w(-v --version).each do |option|
         it "supports '#{option}' option" do
-          expect(Rhino.logger).to receive(:log).with(Rhino::VERSION)
+          expect(Rhino.logger).to receive(:log).with(VERSION)
           cli.parse([option])
         end
       end
