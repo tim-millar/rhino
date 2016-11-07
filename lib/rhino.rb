@@ -5,7 +5,7 @@ require 'time'
 require 'uri'
 
 require 'rhino/cli'
-# require 'rhino/http'
+require 'rhino/http'
 require 'rhino/launcher'
 require 'rhino/logger'
 require 'rhino/server'
